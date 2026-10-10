@@ -17,13 +17,15 @@ scripts never modify real issues.
 
 ## Run it
 
-Install [uv](https://docs.astral.sh/uv/getting-started/installation/) and open a
-terminal in this directory. Python 3.11 is selected by `.python-version`; uv can
+Install [uv](https://docs.astral.sh/uv/getting-started/installation/) and clone
+this repository. Python 3.11 is selected by `.python-version`; uv can
 download it if needed. The first run also downloads public model weights from
 Hugging Face. Allow a few GB of disk space for the environment and caches.
 No API key, paid service, or Hugging Face login is required for this model.
 
 ```bash
+git clone https://github.com/mager/trl-issue-triage.git
+cd trl-issue-triage
 uv sync --locked
 uv run pytest -q
 
