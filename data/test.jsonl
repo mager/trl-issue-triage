@@ -1,0 +1,20 @@
+{"id": "test-bug-01", "text": "After rotating my credentials, the worker still uses the old secret.", "label": "bug"}
+{"id": "test-bug-02", "text": "Opening a second browser tab overwrites an unsaved draft in the first tab.", "label": "bug"}
+{"id": "test-bug-03", "text": "A filename containing an emoji makes the download fail.", "label": "bug"}
+{"id": "test-bug-04", "text": "The audit log reports successful deletion even when the database rejects it.", "label": "bug"}
+{"id": "test-bug-05", "text": "Switching languages clears all the items from my cart.", "label": "bug"}
+{"id": "test-feature-01", "text": "Let repository owners require two reviewers before merging.", "label": "feature"}
+{"id": "test-feature-02", "text": "I would like an RSS feed for release announcements.", "label": "feature"}
+{"id": "test-feature-03", "text": "Please add support for authenticating through our SAML provider.", "label": "feature"}
+{"id": "test-feature-04", "text": "Offer a dry-run option for the cleanup command.", "label": "feature"}
+{"id": "test-feature-05", "text": "Allow attaching a short audio recording to a comment.", "label": "feature"}
+{"id": "test-question-01", "text": "Are request limits measured per account or per token?", "label": "question"}
+{"id": "test-question-02", "text": "What happens to queued tasks when the service restarts?", "label": "question"}
+{"id": "test-question-03", "text": "Can I transfer ownership without inviting another administrator first?", "label": "question"}
+{"id": "test-question-04", "text": "Which timestamp format should I send to the events endpoint?", "label": "question"}
+{"id": "test-question-05", "text": "How do I tell whether compression is enabled?", "label": "question"}
+{"id": "test-docs-01", "text": "The reference calls the parameter max_items, but the implementation accepts limit.", "label": "docs"}
+{"id": "test-docs-02", "text": "Add a glossary explaining the terminology in the architecture guide.", "label": "docs"}
+{"id": "test-docs-03", "text": "The quickstart tells readers to call init(), which was renamed to configure().", "label": "docs"}
+{"id": "test-docs-04", "text": "Please translate the error-handling guide into Spanish.", "label": "docs"}
+{"id": "test-docs-05", "text": "The migration page links to a deleted release note.", "label": "docs"}

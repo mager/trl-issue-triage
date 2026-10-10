@@ -1,0 +1,568 @@
+{
+  "model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+  "revision": "12fd25f77366fa6b3b4b768ec3050bf629380bac",
+  "device": "mps:0",
+  "split": "test",
+  "prompt": [
+    {
+      "role": "system",
+      "content": "Label this software issue. Return only a JSON object with one key, \"label\". Allowed labels: bug (existing behavior is broken), feature (new behavior requested), question (asking for help), docs (documentation correction or addition). For documentation problems choose docs, even if the issue describes an error. Example output: {\"label\":\"bug\"}"
+    },
+    {
+      "role": "user",
+      "content": "<issue text>"
+    }
+  ],
+  "decoding": {
+    "do_sample": false,
+    "max_new_tokens": 32
+  },
+  "data_sha256": "54672dcbebb63b72c5081bcd25fea197dc9805e34677e33eb445d77ae724ea23",
+  "adapter_run": {
+    "model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+    "revision": "12fd25f77366fa6b3b4b768ec3050bf629380bac",
+    "seed": 42,
+    "device": "mps",
+    "elapsed_seconds": 36.524917625123635,
+    "epochs_requested": 8,
+    "max_steps": -1,
+    "optimizer_steps": 80,
+    "metrics": {
+      "train_runtime": 36.4331,
+      "train_samples_per_second": 17.566,
+      "train_steps_per_second": 2.196,
+      "total_flos": 43113654252288.0,
+      "train_loss": 0.3470497205853462,
+      "epoch": 8.0
+    },
+    "history": [
+      {
+        "loss": 1.4781442642211915,
+        "grad_norm": 1.9437638521194458,
+        "learning_rate": 0.0001775,
+        "entropy": 1.3241274267435075,
+        "num_tokens": 8173.0,
+        "mean_token_accuracy": 0.7500000044703483,
+        "epoch": 1.0,
+        "step": 10
+      },
+      {
+        "eval_loss": 0.34812673926353455,
+        "eval_runtime": 0.2368,
+        "eval_samples_per_second": 50.677,
+        "eval_steps_per_second": 25.339,
+        "eval_entropy": 0.7770155966281891,
+        "eval_num_tokens": 8173.0,
+        "eval_mean_token_accuracy": 0.9166666567325592,
+        "epoch": 1.0,
+        "step": 10
+      },
+      {
+        "loss": 0.28899435997009276,
+        "grad_norm": 0.8326603174209595,
+        "learning_rate": 0.0001525,
+        "entropy": 0.4951660320162773,
+        "num_tokens": 16346.0,
+        "mean_token_accuracy": 0.8964285686612129,
+        "epoch": 2.0,
+        "step": 20
+      },
+      {
+        "eval_loss": 0.22737003862857819,
+        "eval_runtime": 0.2129,
+        "eval_samples_per_second": 56.358,
+        "eval_steps_per_second": 28.179,
+        "eval_entropy": 0.332724596063296,
+        "eval_num_tokens": 16346.0,
+        "eval_mean_token_accuracy": 0.9047619005044302,
+        "epoch": 2.0,
+        "step": 20
+      },
+      {
+        "loss": 0.23701934814453124,
+        "grad_norm": 0.6488751769065857,
+        "learning_rate": 0.0001275,
+        "entropy": 0.283246211335063,
+        "num_tokens": 24519.0,
+        "mean_token_accuracy": 0.8982142820954323,
+        "epoch": 3.0,
+        "step": 30
+      },
+      {
+        "eval_loss": 0.1898546814918518,
+        "eval_runtime": 0.2062,
+        "eval_samples_per_second": 58.205,
+        "eval_steps_per_second": 29.102,
+        "eval_entropy": 0.2852068841457367,
+        "eval_num_tokens": 24519.0,
+        "eval_mean_token_accuracy": 0.9047619005044302,
+        "epoch": 3.0,
+        "step": 30
+      },
+      {
+        "loss": 0.19786158800125123,
+        "grad_norm": 0.8725178837776184,
+        "learning_rate": 0.0001025,
+        "entropy": 0.2642060723155737,
+        "num_tokens": 32692.0,
+        "mean_token_accuracy": 0.9142857015132904,
+        "epoch": 4.0,
+        "step": 40
+      },
+      {
+        "eval_loss": 0.1738852709531784,
+        "eval_runtime": 0.208,
+        "eval_samples_per_second": 57.694,
+        "eval_steps_per_second": 28.847,
+        "eval_entropy": 0.2529199148217837,
+        "eval_num_tokens": 32692.0,
+        "eval_mean_token_accuracy": 0.9285714228947958,
+        "epoch": 4.0,
+        "step": 40
+      },
+      {
+        "loss": 0.16760246753692626,
+        "grad_norm": 0.49765774607658386,
+        "learning_rate": 7.75e-05,
+        "entropy": 0.23893487304449082,
+        "num_tokens": 40865.0,
+        "mean_token_accuracy": 0.9249999865889549,
+        "epoch": 5.0,
+        "step": 50
+      },
+      {
+        "eval_loss": 0.16233062744140625,
+        "eval_runtime": 0.2124,
+        "eval_samples_per_second": 56.491,
+        "eval_steps_per_second": 28.246,
+        "eval_entropy": 0.2249790628751119,
+        "eval_num_tokens": 40865.0,
+        "eval_mean_token_accuracy": 0.9285714228947958,
+        "epoch": 5.0,
+        "step": 50
+      },
+      {
+        "loss": 0.14745913743972777,
+        "grad_norm": 0.4919814467430115,
+        "learning_rate": 5.25e-05,
+        "entropy": 0.22770247161388396,
+        "num_tokens": 49038.0,
+        "mean_token_accuracy": 0.9410714164376259,
+        "epoch": 6.0,
+        "step": 60
+      },
+      {
+        "eval_loss": 0.1427810788154602,
+        "eval_runtime": 0.2172,
+        "eval_samples_per_second": 55.251,
+        "eval_steps_per_second": 27.625,
+        "eval_entropy": 0.22253631552060446,
+        "eval_num_tokens": 49038.0,
+        "eval_mean_token_accuracy": 0.9404761791229248,
+        "epoch": 6.0,
+        "step": 60
+      },
+      {
+        "loss": 0.13368781805038452,
+        "grad_norm": 0.54034823179245,
+        "learning_rate": 2.7500000000000004e-05,
+        "entropy": 0.21721036210656167,
+        "num_tokens": 57211.0,
+        "mean_token_accuracy": 0.9607142746448517,
+        "epoch": 7.0,
+        "step": 70
+      },
+      {
+        "eval_loss": 0.13394604623317719,
+        "eval_runtime": 0.2068,
+        "eval_samples_per_second": 58.019,
+        "eval_steps_per_second": 29.009,
+        "eval_entropy": 0.2084175373117129,
+        "eval_num_tokens": 57211.0,
+        "eval_mean_token_accuracy": 0.9523809452851614,
+        "epoch": 7.0,
+        "step": 70
+      },
+      {
+        "loss": 0.12562878131866456,
+        "grad_norm": 0.9611950516700745,
+        "learning_rate": 2.5e-06,
+        "entropy": 0.20393680557608604,
+        "num_tokens": 65384.0,
+        "mean_token_accuracy": 0.9553571313619613,
+        "epoch": 8.0,
+        "step": 80
+      },
+      {
+        "eval_loss": 0.1326664537191391,
+        "eval_runtime": 0.2029,
+        "eval_samples_per_second": 59.146,
+        "eval_steps_per_second": 29.573,
+        "eval_entropy": 0.19955385973056158,
+        "eval_num_tokens": 65384.0,
+        "eval_mean_token_accuracy": 0.9523809452851614,
+        "epoch": 8.0,
+        "step": 80
+      },
+      {
+        "train_runtime": 36.4331,
+        "train_samples_per_second": 17.566,
+        "train_steps_per_second": 2.196,
+        "total_flos": 43113654252288.0,
+        "train_loss": 0.3470497205853462,
+        "epoch": 8.0,
+        "step": 80
+      }
+    ],
+    "versions": {
+      "torch": "2.14.1",
+      "transformers": "5.19.0",
+      "trl": "1.14.0",
+      "peft": "0.21.2",
+      "datasets": "5.1.0",
+      "accelerate": "1.15.0"
+    },
+    "data_sha256": {
+      "train": "bb4b27b1ef8cb0a11282451ce40f815dec89888018394b04221e7b00439422c6",
+      "validation": "dda1eada1ee987d7ad740629af2f08dbd0d81bcc2b2969983da08ee7195f4ecb"
+    }
+  },
+  "baseline": {
+    "metrics": {
+      "total": 20,
+      "valid_json": 0,
+      "correct": 0,
+      "valid_json_rate": 0.0,
+      "accuracy": 0.0,
+      "per_label": {
+        "bug": {
+          "total": 5,
+          "correct": 0
+        },
+        "feature": {
+          "total": 5,
+          "correct": 0
+        },
+        "question": {
+          "total": 5,
+          "correct": 0
+        },
+        "docs": {
+          "total": 5,
+          "correct": 0
+        }
+      }
+    },
+    "predictions": [
+      {
+        "id": "test-bug-01",
+        "text": "After rotating my credentials, the worker still uses the old secret.",
+        "expected": "bug",
+        "predicted": null,
+        "raw": "The worker's credentials are still valid, but the new secret is not yet available. The worker has not yet received the new secret, and the new secret is"
+      },
+      {
+        "id": "test-bug-02",
+        "text": "Opening a second browser tab overwrites an unsaved draft in the first tab.",
+        "expected": "bug",
+        "predicted": null,
+        "raw": "To open a second browser tab overwrites an unsaved draft in the first tab, you can use the `open()` method of the `window` object."
+      },
+      {
+        "id": "test-bug-03",
+        "text": "A filename containing an emoji makes the download fail.",
+        "expected": "bug",
+        "predicted": null,
+        "raw": "The issue is with the filename containing an emoji. The filename should be a valid file extension, such as .png, .jpg, .gif, or"
+      },
+      {
+        "id": "test-bug-04",
+        "text": "The audit log reports successful deletion even when the database rejects it.",
+        "expected": "bug",
+        "predicted": null,
+        "raw": "The audit log reports successful deletion even when the database rejects it. This behavior is not related to the database's performance or security. It's a bug in the"
+      },
+      {
+        "id": "test-bug-05",
+        "text": "Switching languages clears all the items from my cart.",
+        "expected": "bug",
+        "predicted": null,
+        "raw": "Switching languages clears all the items from your cart."
+      },
+      {
+        "id": "test-feature-01",
+        "text": "Let repository owners require two reviewers before merging.",
+        "expected": "feature",
+        "predicted": null,
+        "raw": "To allow repository owners to specify two reviewers before merging, you can use the `merge_reviewers` method. This method takes two arguments: the repository owner"
+      },
+      {
+        "id": "test-feature-02",
+        "text": "I would like an RSS feed for release announcements.",
+        "expected": "feature",
+        "predicted": null,
+        "raw": "I'm sorry for the misunderstanding, but as an AI, I don't have the capability to access or interact with the internet to generate RSS feeds. However,"
+      },
+      {
+        "id": "test-feature-03",
+        "text": "Please add support for authenticating through our SAML provider.",
+        "expected": "feature",
+        "predicted": null,
+        "raw": "Here's how you can add support for authenticating through our SAML provider:\n\n```\n<!DOCTYPE html>\n<html>"
+      },
+      {
+        "id": "test-feature-04",
+        "text": "Offer a dry-run option for the cleanup command.",
+        "expected": "feature",
+        "predicted": null,
+        "raw": "Here's a simple dry-run for the cleanup command:\n\n```bash\n$ echo \"cleanup\" > cleanup.txt\n$ cat cleanup."
+      },
+      {
+        "id": "test-feature-05",
+        "text": "Allow attaching a short audio recording to a comment.",
+        "expected": "feature",
+        "predicted": null,
+        "raw": "Here's how you can attach a short audio recording to a comment:\n\n```python\nimport json\n\ndef attach_audio_recording(comment"
+      },
+      {
+        "id": "test-question-01",
+        "text": "Are request limits measured per account or per token?",
+        "expected": "question",
+        "predicted": null,
+        "raw": "Request limits are measured per account. The limit is set by the user, and it's not set per token. The limit is set by the user's account"
+      },
+      {
+        "id": "test-question-02",
+        "text": "What happens to queued tasks when the service restarts?",
+        "expected": "question",
+        "predicted": null,
+        "raw": "When the service restarts, the queue of queued tasks will be empty. This is because the service has been restarted, and the queue is no longer"
+      },
+      {
+        "id": "test-question-03",
+        "text": "Can I transfer ownership without inviting another administrator first?",
+        "expected": "question",
+        "predicted": null,
+        "raw": "Yes, you can transfer ownership without inviting another administrator first. You can do this by using the following command:\n\n```\nsudo adduser --user="
+      },
+      {
+        "id": "test-question-04",
+        "text": "Which timestamp format should I send to the events endpoint?",
+        "expected": "question",
+        "predicted": null,
+        "raw": "To send a timestamp to the events endpoint, you can use the following format:\n\n```json\n{\n  \"timestamp\": \"2023-"
+      },
+      {
+        "id": "test-question-05",
+        "text": "How do I tell whether compression is enabled?",
+        "expected": "question",
+        "predicted": null,
+        "raw": "To determine whether compression is enabled, you can use the following methods:\n\n1. **Check the compression settings**: Open the compression settings in your web browser."
+      },
+      {
+        "id": "test-docs-01",
+        "text": "The reference calls the parameter max_items, but the implementation accepts limit.",
+        "expected": "docs",
+        "predicted": null,
+        "raw": "The `max_items` parameter in the `max_items` function is not a valid parameter in the `max_items` function. The `max"
+      },
+      {
+        "id": "test-docs-02",
+        "text": "Add a glossary explaining the terminology in the architecture guide.",
+        "expected": "docs",
+        "predicted": null,
+        "raw": "Here is the glossary for the architecture guide:\n\n**Bug**\n\nA bug is an error or defect in the architecture that is not fixed or"
+      },
+      {
+        "id": "test-docs-03",
+        "text": "The quickstart tells readers to call init(), which was renamed to configure().",
+        "expected": "docs",
+        "predicted": null,
+        "raw": "The quickstart's configuration options are now named init(). The quickstart's configuration options are now named configure(). The quickstart's configuration options are now named config"
+      },
+      {
+        "id": "test-docs-04",
+        "text": "Please translate the error-handling guide into Spanish.",
+        "expected": "docs",
+        "predicted": null,
+        "raw": "En este caso, se puede verificar que la informaci\u00f3n se encuentra en espa\u00f1ol.\n\nLa inform"
+      },
+      {
+        "id": "test-docs-05",
+        "text": "The migration page links to a deleted release note.",
+        "expected": "docs",
+        "predicted": null,
+        "raw": "The migration page links to a deleted release note.\n\nHere's how you can modify the code to handle this:\n\n```python\nimport json"
+      }
+    ]
+  },
+  "fine_tuned": {
+    "metrics": {
+      "total": 20,
+      "valid_json": 20,
+      "correct": 12,
+      "valid_json_rate": 1.0,
+      "accuracy": 0.6,
+      "per_label": {
+        "bug": {
+          "total": 5,
+          "correct": 5
+        },
+        "feature": {
+          "total": 5,
+          "correct": 4
+        },
+        "question": {
+          "total": 5,
+          "correct": 3
+        },
+        "docs": {
+          "total": 5,
+          "correct": 0
+        }
+      }
+    },
+    "predictions": [
+      {
+        "id": "test-bug-01",
+        "text": "After rotating my credentials, the worker still uses the old secret.",
+        "expected": "bug",
+        "predicted": "bug",
+        "raw": "{\"label\":\"bug\"}"
+      },
+      {
+        "id": "test-bug-02",
+        "text": "Opening a second browser tab overwrites an unsaved draft in the first tab.",
+        "expected": "bug",
+        "predicted": "bug",
+        "raw": "{\"label\":\"bug\"}"
+      },
+      {
+        "id": "test-bug-03",
+        "text": "A filename containing an emoji makes the download fail.",
+        "expected": "bug",
+        "predicted": "bug",
+        "raw": "{\"label\":\"bug\"}"
+      },
+      {
+        "id": "test-bug-04",
+        "text": "The audit log reports successful deletion even when the database rejects it.",
+        "expected": "bug",
+        "predicted": "bug",
+        "raw": "{\"label\":\"bug\"}"
+      },
+      {
+        "id": "test-bug-05",
+        "text": "Switching languages clears all the items from my cart.",
+        "expected": "bug",
+        "predicted": "bug",
+        "raw": "{\"label\":\"bug\"}"
+      },
+      {
+        "id": "test-feature-01",
+        "text": "Let repository owners require two reviewers before merging.",
+        "expected": "feature",
+        "predicted": "feature",
+        "raw": "{\"label\":\"feature\"}"
+      },
+      {
+        "id": "test-feature-02",
+        "text": "I would like an RSS feed for release announcements.",
+        "expected": "feature",
+        "predicted": "feature",
+        "raw": "{\"label\":\"feature\"}"
+      },
+      {
+        "id": "test-feature-03",
+        "text": "Please add support for authenticating through our SAML provider.",
+        "expected": "feature",
+        "predicted": "feature",
+        "raw": "{\"label\":\"feature\"}"
+      },
+      {
+        "id": "test-feature-04",
+        "text": "Offer a dry-run option for the cleanup command.",
+        "expected": "feature",
+        "predicted": "docs",
+        "raw": "{\"label\":\"docs\"}"
+      },
+      {
+        "id": "test-feature-05",
+        "text": "Allow attaching a short audio recording to a comment.",
+        "expected": "feature",
+        "predicted": "feature",
+        "raw": "{\"label\":\"feature\"}"
+      },
+      {
+        "id": "test-question-01",
+        "text": "Are request limits measured per account or per token?",
+        "expected": "question",
+        "predicted": "feature",
+        "raw": "{\"label\":\"feature\"}"
+      },
+      {
+        "id": "test-question-02",
+        "text": "What happens to queued tasks when the service restarts?",
+        "expected": "question",
+        "predicted": "question",
+        "raw": "{\"label\":\"question\"}"
+      },
+      {
+        "id": "test-question-03",
+        "text": "Can I transfer ownership without inviting another administrator first?",
+        "expected": "question",
+        "predicted": "question",
+        "raw": "{\"label\":\"question\"}"
+      },
+      {
+        "id": "test-question-04",
+        "text": "Which timestamp format should I send to the events endpoint?",
+        "expected": "question",
+        "predicted": "question",
+        "raw": "{\"label\":\"question\"}"
+      },
+      {
+        "id": "test-question-05",
+        "text": "How do I tell whether compression is enabled?",
+        "expected": "question",
+        "predicted": "feature",
+        "raw": "{\"label\":\"feature\"}"
+      },
+      {
+        "id": "test-docs-01",
+        "text": "The reference calls the parameter max_items, but the implementation accepts limit.",
+        "expected": "docs",
+        "predicted": "bug",
+        "raw": "{\"label\":\"bug\"}"
+      },
+      {
+        "id": "test-docs-02",
+        "text": "Add a glossary explaining the terminology in the architecture guide.",
+        "expected": "docs",
+        "predicted": "feature",
+        "raw": "{\"label\":\"feature\"}"
+      },
+      {
+        "id": "test-docs-03",
+        "text": "The quickstart tells readers to call init(), which was renamed to configure().",
+        "expected": "docs",
+        "predicted": "bug",
+        "raw": "{\"label\":\"bug\"}"
+      },
+      {
+        "id": "test-docs-04",
+        "text": "Please translate the error-handling guide into Spanish.",
+        "expected": "docs",
+        "predicted": "bug",
+        "raw": "{\"label\":\"bug\"}"
+      },
+      {
+        "id": "test-docs-05",
+        "text": "The migration page links to a deleted release note.",
+        "expected": "docs",
+        "predicted": "bug",
+        "raw": "{\"label\":\"bug\"}"
+      }
+    ]
+  }
+}

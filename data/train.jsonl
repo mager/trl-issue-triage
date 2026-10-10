@@ -1,0 +1,80 @@
+{"id": "train-bug-01", "text": "Saving my profile returns a 500 error.", "label": "bug"}
+{"id": "train-bug-02", "text": "The app crashes when I upload an empty file.", "label": "bug"}
+{"id": "train-bug-03", "text": "Clicking logout leaves me signed in.", "label": "bug"}
+{"id": "train-bug-04", "text": "The search field ignores the last character I type.", "label": "bug"}
+{"id": "train-bug-05", "text": "Deleting one task removes every task in the list.", "label": "bug"}
+{"id": "train-bug-06", "text": "The export button downloads a zero-byte file.", "label": "bug"}
+{"id": "train-bug-07", "text": "After upgrading, previously working API tokens return 401.", "label": "bug"}
+{"id": "train-bug-08", "text": "The total on the invoice doubles when I refresh.", "label": "bug"}
+{"id": "train-bug-09", "text": "The dark theme makes the submit button invisible.", "label": "bug"}
+{"id": "train-bug-10", "text": "Sorting by date puts January after December of the same year.", "label": "bug"}
+{"id": "train-bug-11", "text": "The mobile menu opens but cannot be closed.", "label": "bug"}
+{"id": "train-bug-12", "text": "The documented retry option is enabled but failed requests are never retried.", "label": "bug"}
+{"id": "train-bug-13", "text": "An invited teammate cannot accept a valid invitation.", "label": "bug"}
+{"id": "train-bug-14", "text": "The progress bar stays at zero after the job finishes.", "label": "bug"}
+{"id": "train-bug-15", "text": "Our scheduled job runs twice for each scheduled time.", "label": "bug"}
+{"id": "train-bug-16", "text": "The application freezes when I paste a large paragraph.", "label": "bug"}
+{"id": "train-bug-17", "text": "Changing my email resets my display name to an empty string.", "label": "bug"}
+{"id": "train-bug-18", "text": "The CSV import swaps the first and last name columns.", "label": "bug"}
+{"id": "train-bug-19", "text": "Undo does not restore the item I just removed.", "label": "bug"}
+{"id": "train-bug-20", "text": "The webhook signature is different for the same payload and secret.", "label": "bug"}
+{"id": "train-feature-01", "text": "Please add CSV export for the activity log.", "label": "feature"}
+{"id": "train-feature-02", "text": "I would like to schedule reports for Monday mornings.", "label": "feature"}
+{"id": "train-feature-03", "text": "Could the dashboard support a compact view?", "label": "feature"}
+{"id": "train-feature-04", "text": "Add a keyboard shortcut for creating a task.", "label": "feature"}
+{"id": "train-feature-05", "text": "We need an option to archive completed projects.", "label": "feature"}
+{"id": "train-feature-06", "text": "Please support signing in with passkeys.", "label": "feature"}
+{"id": "train-feature-07", "text": "It would be useful to filter jobs by their owner.", "label": "feature"}
+{"id": "train-feature-08", "text": "Can you add a webhook when a deployment finishes?", "label": "feature"}
+{"id": "train-feature-09", "text": "I want to choose the timezone used by scheduled jobs.", "label": "feature"}
+{"id": "train-feature-10", "text": "Support bulk invitations instead of one email at a time.", "label": "feature"}
+{"id": "train-feature-11", "text": "Please add an offline mode for reading saved notes.", "label": "feature"}
+{"id": "train-feature-12", "text": "Allow administrators to set a custom session timeout.", "label": "feature"}
+{"id": "train-feature-13", "text": "I would like to pin favorite repositories to the sidebar.", "label": "feature"}
+{"id": "train-feature-14", "text": "Add support for importing Markdown files.", "label": "feature"}
+{"id": "train-feature-15", "text": "Let users choose a custom color for each calendar.", "label": "feature"}
+{"id": "train-feature-16", "text": "Please implement an endpoint for cancelling a running build.", "label": "feature"}
+{"id": "train-feature-17", "text": "Could we have a weekly summary email?", "label": "feature"}
+{"id": "train-feature-18", "text": "Add a toggle to hide completed tasks.", "label": "feature"}
+{"id": "train-feature-19", "text": "Support a second backup destination.", "label": "feature"}
+{"id": "train-feature-20", "text": "I want an optional confirmation before deleting a workspace.", "label": "feature"}
+{"id": "train-question-01", "text": "How do I reset my API token?", "label": "question"}
+{"id": "train-question-02", "text": "Where can I find the logs for a finished build?", "label": "question"}
+{"id": "train-question-03", "text": "Does the free plan include private projects?", "label": "question"}
+{"id": "train-question-04", "text": "Which environment variable sets the server port?", "label": "question"}
+{"id": "train-question-05", "text": "How can I move a project to another team?", "label": "question"}
+{"id": "train-question-06", "text": "Is it possible to use this library without a web framework?", "label": "question"}
+{"id": "train-question-07", "text": "What is the difference between a workspace and an organization?", "label": "question"}
+{"id": "train-question-08", "text": "How do I run the tests locally?", "label": "question"}
+{"id": "train-question-09", "text": "Can someone explain what the retry count includes?", "label": "question"}
+{"id": "train-question-10", "text": "What permissions does a read-only token have?", "label": "question"}
+{"id": "train-question-11", "text": "Which Python versions are supported?", "label": "question"}
+{"id": "train-question-12", "text": "How should I configure the proxy for local development?", "label": "question"}
+{"id": "train-question-13", "text": "Where is the default configuration file stored?", "label": "question"}
+{"id": "train-question-14", "text": "Do I need to restart after changing the log level?", "label": "question"}
+{"id": "train-question-15", "text": "How do I restore a backup?", "label": "question"}
+{"id": "train-question-16", "text": "Is the cache shared between workers?", "label": "question"}
+{"id": "train-question-17", "text": "What does the pending status mean?", "label": "question"}
+{"id": "train-question-18", "text": "How can I check which version I have installed?", "label": "question"}
+{"id": "train-question-19", "text": "Does deleting a project remove its uploaded files?", "label": "question"}
+{"id": "train-question-20", "text": "Can I run two instances against the same database?", "label": "question"}
+{"id": "train-docs-01", "text": "The installation guide spells the package name incorrectly.", "label": "docs"}
+{"id": "train-docs-02", "text": "Please document the new timeout setting.", "label": "docs"}
+{"id": "train-docs-03", "text": "The README links to a page that no longer exists.", "label": "docs"}
+{"id": "train-docs-04", "text": "The authentication example in the manual uses a removed method.", "label": "docs"}
+{"id": "train-docs-05", "text": "Add an example of pagination to the API reference.", "label": "docs"}
+{"id": "train-docs-06", "text": "The setup guide says port 3000, but the correct default is 8080.", "label": "docs"}
+{"id": "train-docs-07", "text": "There is a typo in the heading of the deployment guide.", "label": "docs"}
+{"id": "train-docs-08", "text": "Please explain the backup file format in the documentation.", "label": "docs"}
+{"id": "train-docs-09", "text": "The CLI reference is missing the verbose flag.", "label": "docs"}
+{"id": "train-docs-10", "text": "Update the screenshot in the quickstart to match the current UI.", "label": "docs"}
+{"id": "train-docs-11", "text": "The tutorial code block is missing an import statement.", "label": "docs"}
+{"id": "train-docs-12", "text": "Document how to migrate from version one to version two.", "label": "docs"}
+{"id": "train-docs-13", "text": "The configuration table lists the wrong default for retries.", "label": "docs"}
+{"id": "train-docs-14", "text": "Please add Windows instructions to the installation page.", "label": "docs"}
+{"id": "train-docs-15", "text": "The README badge points to the old CI pipeline.", "label": "docs"}
+{"id": "train-docs-16", "text": "The example request in the docs is not valid JSON.", "label": "docs"}
+{"id": "train-docs-17", "text": "The documentation never defines what a workspace is.", "label": "docs"}
+{"id": "train-docs-18", "text": "Add a troubleshooting section for proxy configuration.", "label": "docs"}
+{"id": "train-docs-19", "text": "The API reference describes the return type as a string instead of a list.", "label": "docs"}
+{"id": "train-docs-20", "text": "Fix the broken anchor link in the contributing guide.", "label": "docs"}

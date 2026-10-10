@@ -1,0 +1,20 @@
+[project]
+name = "trl-issue-triage"
+version = "0.1.0"
+description = "Learn supervised fine-tuning with TRL by labeling software issues."
+requires-python = ">=3.11,<3.14"
+dependencies = [
+  "torch==2.14.1",
+  "transformers==5.19.0",
+  "trl==1.14.0",
+  "peft==0.21.2",
+  "datasets==5.1.0",
+  "accelerate==1.15.0",
+]
+
+[dependency-groups]
+dev = ["pytest>=8,<10"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

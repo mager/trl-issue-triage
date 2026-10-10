@@ -1,0 +1,12 @@
+{"id": "validation-bug-01", "text": "Dragging a card between columns makes a duplicate.", "label": "bug"}
+{"id": "validation-bug-02", "text": "The settings screen shows stale values after a successful save.", "label": "bug"}
+{"id": "validation-bug-03", "text": "An empty search causes an uncaught exception.", "label": "bug"}
+{"id": "validation-feature-01", "text": "Please let me mute notifications for one project.", "label": "feature"}
+{"id": "validation-feature-02", "text": "Add a way to compare two saved reports.", "label": "feature"}
+{"id": "validation-feature-03", "text": "Support uploading several attachments in one operation.", "label": "feature"}
+{"id": "validation-question-01", "text": "How long are deleted records retained?", "label": "question"}
+{"id": "validation-question-02", "text": "Can the command line tool read configuration from standard input?", "label": "question"}
+{"id": "validation-question-03", "text": "Which role can manage billing settings?", "label": "question"}
+{"id": "validation-docs-01", "text": "The tutorial uses an outdated screenshot of the login form.", "label": "docs"}
+{"id": "validation-docs-02", "text": "Document the response codes for the health endpoint.", "label": "docs"}
+{"id": "validation-docs-03", "text": "The README sample is missing a closing bracket.", "label": "docs"}
